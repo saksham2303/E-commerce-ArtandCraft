@@ -5,6 +5,8 @@ function Carousel() {
     return (
         <div className="carousel">
         <ReactBootstrap.Carousel style={{height:"500px"}}>
+
+          {/* thatsit */}
   {/* <ReactBootstrap.Carousel.Item interval={500} >
     <img
       className="d-block w-80"
@@ -12,6 +14,7 @@ function Carousel() {
       alt="First slide"
       style={{height:"400px"}}
     />
+
     <ReactBootstrap.Carousel.Caption>
       <h3>First slide label</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
