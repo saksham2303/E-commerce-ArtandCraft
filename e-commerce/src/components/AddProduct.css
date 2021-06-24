@@ -1,0 +1,41 @@
+.Adds{
+    width: 1300px;
+    margin: 70px 120px;
+    text-align: left;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding:50px;
+    box-shadow: 8px 5px 9px 8px  #dddddd;
+    
+}
+.Adds form{
+    display: flex;
+    
+    
+}
+.Adds form input{
+    width: 400px;
+    
+    
+}
+.Choose__file{
+    width: 100%;
+
+}
+.image__preview{
+    width:400px;
+    min-height:100px;
+    border:2px solid #dddddd;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.image__preview-image{
+    display: none;
+    width:100%;
+}

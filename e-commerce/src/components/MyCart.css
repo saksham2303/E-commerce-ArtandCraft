@@ -1,0 +1,36 @@
+
+.cart__{
+    display: flex;
+    width:100%;
+    margin-bottom: 50px;
+    box-shadow: 5px 1px 6px 2px  #dddddd;
+}
+.myCart{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 85%;
+    /* border: 1px solid black; */
+    
+   
+    
+    
+}
+.buy_products{
+    width:94%;
+}
+.buy_products button{
+    float: right;
+    margin-bottom: 60px;
+    
+}
+.cart__items{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.cart__items.details{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}

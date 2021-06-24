@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.products__{
+    display: flex;
+    /* flex: auto; */
+    margin-left: 50px;
+    
+    height:320px;
+    width: 90%;
+    max-width: 100%;
+    overflow-x: auto;
+    margin-bottom: 50px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.all__products{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+    
+    
+}
+.all__products h1{
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+/* .__products{
+    flex: auto;
+} */
+.__products img{
+    margin-bottom: 10px;
+}
+.__products{
+    /* border: 1px solid white; */
+    min-width: 160px;
+    
+    height:305;
+    max-height: 305px;
+   
+    /* box-shadow: 6px 6px 6px 6px rgb(221, 214, 214); */
+    box-shadow: 1px 5px 5px 1px  #dddddd;
+    margin-left: 30px;
+    /* border-radius: 10px; */
+    
+    
+}
+/* .__products:hover{
+    width:290px;
+    height:300px;
+    transition: 5s;
+} */
+.__products img{
+    width: 100%;
+    height: 57%;
+   
+}
+ .__products h6,p,h5,a{
+    /* float: left; */
+    margin-left: 5px;
+   
+}
+.__products .text-primary, .text-secondary{
+    margin-bottom: -1px;
+}
+.__products{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.__products a{
+    margin-top: -11px;
+    text-decoration: none;
+}
+
+.__products a:hover{
+    content: "View items";
+}
+.products__::-webkit-scrollbar {
+    display: none;
+}
+.heading__sort{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
