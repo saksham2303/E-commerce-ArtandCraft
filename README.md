@@ -5,7 +5,7 @@ Contributors
 
 Saksham Bairathi 
 email - sakshambairathi@gmail.com
-linkedin - https://www.linkedin.com/in/saksham-bairathi-b35171140
+LinkedIn - https://www.linkedin.com/in/saksham-bairathi-b35171140
 
 Aishwaryaditya Jha
 email - aishwaryadityajha@gmail.com
