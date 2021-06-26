@@ -19,7 +19,9 @@ function Routes() {
                 <Route path ="/Dashboard/category" exact component={Dashboard} />
                 <Route path = "/Dashboard/Checkout" exact component = {Checkout} />
                 <Route path ="/Dashboard/product" component={Dashboard} />
+                <Route path ="/Dashboard/collections" component={Dashboard} />
                 <Route path ="/Dashboard/Askexperts" component={Dashboard} />
+                <Route path ="/Dashboard/searchfilter" component={Dashboard} />
                 {/* <Route path ="/Signin" component={Login} />
                 <Route path ="/Signup" exact component={Signup} />
                 <Route path ="/Dashboard" exact component={HDashboard} />

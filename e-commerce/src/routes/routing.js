@@ -10,7 +10,8 @@ import MyCart from '../components/MyCart'
 import Categories from '../components/Categories';
 import ViewProduct from '../components/ViewProduct'
 import ExpertCollection from '../components/ExpertCollection';
-
+import ViewCollection from '../components/ViewCollection';
+import Searchfilter from '../components/Searchfilter';
 function Routes() {
     return (
         <Switch>
@@ -22,7 +23,8 @@ function Routes() {
                 <Route path ="/Dashboard/product" component={ViewProduct} />
                 <Route path ="/Dashboard/category" component={Categories} />
                 <Route path ="/Dashboard/Askexperts" component={ExpertCollection} />
-                
+                <Route path ="/Dashboard/collections" component={ViewCollection} />
+                <Route path ="/Dashboard/searchfilter" component={Searchfilter} />
             
                 {/* <Route path ="/Signin" component={Login} />
                 <Route path ="/Signup" exact component={Signup} />

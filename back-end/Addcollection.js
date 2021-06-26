@@ -8,7 +8,7 @@ import fileUpload from 'express-fileupload'
 
 router.get('/uploadcollection',async (req,res) => {
 
-    const productdatas = await Addprod.find()
+    const productdatas = await Addcoll.find()
 
     res.json(productdatas)
 
@@ -16,9 +16,9 @@ router.get('/uploadcollection',async (req,res) => {
 
 
 })
-router.get('/uploadproducts',async (req,res) => {
+router.get('/uploadcollection',async (req,res) => {
     const cate = req.query.dat
-    const productdatas = await Addprod.find({"productcategory":cate}).limit(10)
+    const productdatas = await Addcoll.find({"productcategory":cate}).limit(10)
 
     res.json(productdatas)
 
@@ -27,7 +27,7 @@ router.get('/uploadproducts',async (req,res) => {
 
 })
 
-router.get('/uploadproductscat',async (req,res) => {
+router.get('/uploadproductscollection',async (req,res) => {
     const cate = req.query.dat
     const productdatas = await Addcoll.find({"productcategory":cate}).sort({"$natural":"-1"})
 
@@ -40,7 +40,7 @@ router.get('/uploadproductscat',async (req,res) => {
 
 
 
-router.get('/viewproduct',async (req,res) => {
+router.get('/viewcollection',async (req,res) => {
     const views = req.query.id;
     const data = await Addcoll.find({"_id":views})
     res.json(data);

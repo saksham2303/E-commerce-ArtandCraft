@@ -27,6 +27,18 @@ router.get('/uploadproducts',async (req,res) => {
 
 })
 
+router.get('/uploadsearch',async (req,res) => {
+    const search = req.query.srch
+    const productdatas = await Addprod.find({$or:[{"productcategory":search},{"productname":search}]})
+
+    res.json(productdatas)
+
+
+
+
+})
+
+
 router.get('/uploadproductscat',async (req,res) => {
     const cate = req.query.dat
     const productdatas = await Addprod.find({"productcategory":cate}).sort({"$natural":"-1"})

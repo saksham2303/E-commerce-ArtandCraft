@@ -1,0 +1,40 @@
+.view__collections{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.collections_{
+    width: 80%;
+    margin-top: 100px;
+    
+}
+.collection_{
+    
+    box-shadow: 2px 1px 2px 1px rgb(45, 108, 245);
+    display: flex;
+    height:360px;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.collection_ img{
+    height: 100%;
+    width:80%;
+    
+    
+}
+.picc p{
+    width:80%;
+    margin-top: 10px;
+}
+.picc{
+    margin-top: 20px;
+}
+
+.collection_ button{
+    margin-top: 20px;
+}

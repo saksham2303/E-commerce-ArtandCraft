@@ -22,6 +22,27 @@ function Header() {
 
         
     }
+        const [search,setSearch] = useState({
+            
+            
+            searcheditem:""
+        
+        })
+const{searcheditem} = search
+
+function handleChange(e){
+
+    setSearch({
+        ...search,
+        [e.target.name]:e.target.value
+    })
+}
+
+function handleClick(e){
+    e.preventDefault()
+    localStorage.setItem("searching",searcheditem)
+    window.location.href = "http://localhost:3000/Dashboard/searchfilter"
+}
 
     
         const [people, setPeople] = useState([]);
@@ -51,9 +72,9 @@ function Header() {
             </div>
             <div className="header__searchbar">
                 <div className="searchbar__wrap">
-                    <input type="text" className="search__bar" placeholder="Search here" />
+                    <input type="text" className="search__bar" placeholder="Search here" name="searcheditem" value={searcheditem} onChange={handleChange} />
                     <div className="search__icon">
-                       <Link style={{color:"white", textDecoration:"none"}}><SearchIcon /></Link> 
+                       <Link style={{color:"white", textDecoration:"none"}} onClick={handleClick} to="/Dashboard/searchfilter" ><SearchIcon /></Link> 
                     </div>
                 
                 </div>
