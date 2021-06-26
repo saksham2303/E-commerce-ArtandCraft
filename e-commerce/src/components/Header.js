@@ -74,7 +74,7 @@ function handleClick(e){
                 <div className="searchbar__wrap">
                     <input type="text" className="search__bar" placeholder="Search here" name="searcheditem" value={searcheditem} onChange={handleChange} />
                     <div className="search__icon">
-                       <Link style={{color:"white", textDecoration:"none"}} onClick={handleClick} to="/Dashboard/searchfilter" ><SearchIcon /></Link> 
+                       <Link style={{color:"white", textDecoration:"none"}}  to="/Dashboard/searchfilter" ><SearchIcon onClick={handleClick} /></Link> 
                     </div>
                 
                 </div>
