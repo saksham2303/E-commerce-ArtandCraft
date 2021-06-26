@@ -35,6 +35,39 @@ fetchData();
 fetchData();
         },[])
 
+
+
+        const [produc, setProduc] = useState([]);
+    
+    useEffect(() =>{
+    async function fetchData(){
+    const req = await axios.get(`http://localhost:5001/uploadproducts?dat=${"Sketching"}`);
+    
+    
+    console.log("data on dahsboard- ",req.data)
+    setProduc(req.data);
+    
+
+}
+fetchData();
+        },[])
+
+        const [prod, setProd] = useState([]);
+    
+    useEffect(() =>{
+    async function fetchData(){
+    const req = await axios.get(`http://localhost:5001/uploadproducts?dat=${"Clay"}`);
+    
+    
+    console.log("data on dahsboard- ",req.data)
+    setProd(req.data);
+    
+
+}
+fetchData();
+        },[])
+
+
 function viewProduct(id){
     localStorage.setItem("viewproduct",id)
 }
@@ -141,7 +174,7 @@ function addToCart(seller,prod,file,category,des,em,price){
             {/* <h1 className="text-secondary heading__sort">Paintings</h1> */}
             <div className="products__">
                
-            {products.map(product=>(
+            {produc.map(product=>(
                 
                 <div className="__products">
                     
@@ -176,7 +209,7 @@ function addToCart(seller,prod,file,category,des,em,price){
             {/* <h1 className="text-secondary heading__sort">Paintings</h1> */}
             <div className="products__">
                
-            {products.map(product=>(
+            {prod.map(product=>(
                 
                 <div className="__products">
                     
