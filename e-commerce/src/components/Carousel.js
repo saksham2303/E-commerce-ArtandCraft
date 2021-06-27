@@ -45,8 +45,65 @@ function Carousel() {
       <h3>Second slide</h3>
       <p>Doosri image</p>
     </ReactBootstrap.Carousel.Caption>
+
+    
+  </ReactBootstrap.Carousel.Item>
+  <ReactBootstrap.Carousel.Item interval={2500}>
+  <img
+      className="d-block w-100"
+      src="http://localhost:5001/png/1.jpg"
+     
+      alt="Second slide"
+      style={{height:"500px"}}
+    />
+    <ReactBootstrap.Carousel.Caption>
+      <h3>Third slide </h3>
+      <p>Teesri image</p>
+    </ReactBootstrap.Carousel.Caption>
+  </ReactBootstrap.Carousel.Item>
+  <ReactBootstrap.Carousel.Item interval={2500}>
+  <img
+      className="d-block w-100"
+      src="http://localhost:5001/png/2.jpg"
+     
+      alt="Second slide"
+      style={{height:"500px"}}
+    />
+    <ReactBootstrap.Carousel.Caption>
+      <h3>Third slide </h3>
+      <p>Teesri image</p>
+    </ReactBootstrap.Carousel.Caption>
+  </ReactBootstrap.Carousel.Item>
+
+  <ReactBootstrap.Carousel.Item interval={2500}>
+  <img
+      className="d-block w-100"
+      src="http://localhost:5001/png/3.jpg"
+     
+      alt="Second slide"
+      style={{height:"500px"}}
+    />
+    <ReactBootstrap.Carousel.Caption>
+      <h3>Third slide </h3>
+      <p>Teesri image</p>
+    </ReactBootstrap.Carousel.Caption>
+  </ReactBootstrap.Carousel.Item>
+  <ReactBootstrap.Carousel.Item interval={2500}>
+  <img
+      className="d-block w-100"
+      src="http://localhost:5001/png/4.webp"
+     
+      alt="Second slide"
+      style={{height:"500px"}}
+    />
+    <ReactBootstrap.Carousel.Caption>
+      <h3>Third slide </h3>
+      <p>Teesri image</p>
+    </ReactBootstrap.Carousel.Caption>
   </ReactBootstrap.Carousel.Item>
 </ReactBootstrap.Carousel>
+
+
 </div>
     )
 }
