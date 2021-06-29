@@ -23,7 +23,7 @@ function Carousel() {
   <ReactBootstrap.Carousel.Item interval={2500}>
     <img
       className="d-block w-100"
-      src="http://localhost:5001/png/pexels-nick-collins-1293120.jpg"
+      src="http://localhost:5001/png/s1.jpg"
      
       alt="Second slide"
       style={{height:"500px"}}
@@ -36,7 +36,7 @@ function Carousel() {
   <ReactBootstrap.Carousel.Item interval={2500}>
     <img
       className="d-block w-100"
-      src="http://localhost:5001/png/luke-chesser-B_oL3jEt5L4-unsplash.jpg"
+      src="http://localhost:5001/png/s2.jpg"
       alt="Third slide"
       style={{height:"500px"}}
       
@@ -51,7 +51,7 @@ function Carousel() {
   <ReactBootstrap.Carousel.Item interval={2500}>
   <img
       className="d-block w-100"
-      src="http://localhost:5001/png/1.jpg"
+      src="http://localhost:5001/png/s3.png"
      
       alt="Second slide"
       style={{height:"500px"}}
@@ -64,7 +64,7 @@ function Carousel() {
   <ReactBootstrap.Carousel.Item interval={2500}>
   <img
       className="d-block w-100"
-      src="http://localhost:5001/png/2.jpg"
+      src="http://localhost:5001/png/s4.webp"
      
       alt="Second slide"
       style={{height:"500px"}}
@@ -78,7 +78,7 @@ function Carousel() {
   <ReactBootstrap.Carousel.Item interval={2500}>
   <img
       className="d-block w-100"
-      src="http://localhost:5001/png/3.jpg"
+      src="http://localhost:5001/png/s5.jpg"
      
       alt="Second slide"
       style={{height:"500px"}}

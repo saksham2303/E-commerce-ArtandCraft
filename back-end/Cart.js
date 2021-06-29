@@ -27,6 +27,15 @@ router.delete('/MyCart',async (req,res) => {
 
 
 })
+router.delete('/MyCartitems',async (req,res) => {
+    const id = req.query.email;
+    await Addprod.deleteMany({"buyeremail":id})
+    
+
+
+
+
+})
 
 router.post('/MyCart', async (req,res) => {
 

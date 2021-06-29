@@ -116,6 +116,11 @@ datas.map(data => {
   const handleNext = () => {
     setActiveStep(activeStep + 1);
     
+    if(document.getElementById("buttonsname").innerHTML.match("Place order")){
+      axios.delete(`http://localhost:5001/MyCartitems?email=${localStorage.getItem("useremail")}`)
+    }
+    
+    
   };
 const buyProducts = () =>{
  
@@ -174,6 +179,7 @@ const buyProducts = () =>{
                     color="primary"
                     onClick={handleNext}
                     className={classes.button}
+                    id="buttonsname"
                   >
                     {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
                   </Button>

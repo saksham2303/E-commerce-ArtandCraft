@@ -51,7 +51,6 @@ router.get('/uploadproductscat',async (req,res) => {
 })
 
 
-
 router.get('/viewproduct',async (req,res) => {
     const views = req.query.id;
     const data = await Addprod.find({"_id":views})

@@ -26,6 +26,7 @@ mongoose.connect(connection_url,{
     useNewUrlParser:true,
 useCreateIndex:true,
 useUnifiedTopology:true,
+useFindAndModify: false,
 })
 
 export default connectdb;
