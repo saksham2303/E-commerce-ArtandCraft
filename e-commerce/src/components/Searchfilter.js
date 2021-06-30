@@ -62,7 +62,26 @@ fetchData();
                 <p className="text-info" style={{marginTop:"-16px"}}>{product.productcategory}</p>
                 <p className="text-muted" style={{marginTop:"-16px",width:"89%"}}>{product.productdescription}</p>
                 <h6 className="text-success" style={{fontSize:"22px"}}>{"₹"+product.productprice+"  "}</h6>
-                <span style={{marginLeft:"800px",marginBottom:"20px"}}>
+                {product.email==localStorage.getItem('useremail')
+                ?<span style={{marginLeft:"800px",marginBottom:"20px"}}>
+                                    <ReactBootstrap.Button 
+variant="primary"
+
+type="submit"
+onClick={() => addToCart(product.productseller,product.productname,product.productimage,product.productcategory,
+    product.productdescription
+    ,product.email ,product.productprice
+    
+    
+    
+    )}
+
+
+>
+My Product
+</ReactBootstrap.Button></span>
+:
+<span style={{marginLeft:"800px",marginBottom:"20px"}}>
                                     <ReactBootstrap.Button 
 variant="primary"
 
@@ -79,6 +98,8 @@ onClick={() => addToCart(product.productseller,product.productname,product.produ
 >
 Add to Cart
 </ReactBootstrap.Button></span>
+
+}
 
                     
                 </div>

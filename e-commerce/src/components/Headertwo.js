@@ -36,7 +36,11 @@ function Headertwo() {
             </div>
             <div className="header__categories">
                 <SupervisorAccountIcon />
-                <h3><Link to="/Dashboard/Askexperts">Ask Experts</Link></h3>
+                <h3><Link to="/Dashboard/Askexperts">Be an Expert</Link></h3>
+            </div>
+            <div className="header__categories">
+                <SupervisorAccountIcon />
+                <h3><Link to="/Dashboard/collections">Ask Experts</Link></h3>
             </div>
             
         </div>

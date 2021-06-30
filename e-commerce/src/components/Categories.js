@@ -81,8 +81,9 @@ type="submit"
                 <p className="text-info" style={{marginTop:"-16px"}}>{product.productcategory}</p>
                 <p className="text-muted" style={{marginTop:"-16px",width:"89%"}}>{product.productdescription}</p>
                 <h6 className="text-success" style={{fontSize:"22px"}}>{"₹"+product.productprice+"  "}</h6>
+                {product.email==localStorage.getItem('useremail')?
                 <span style={{marginLeft:"800px",marginBottom:"20px"}}>
-                                    <ReactBootstrap.Button 
+                                   <ReactBootstrap.Button 
 variant="primary"
 
 type="submit"
@@ -96,8 +97,23 @@ onClick={() => addToCart(product.productseller,product.productname,product.produ
 
 
 >
+My Product
+</ReactBootstrap.Button></span>:
+
+
+<span style={{marginLeft:"800px",marginBottom:"20px"}}>
+                                   <ReactBootstrap.Button 
+variant="primary"
+
+type="submit"
+
+
+>
 Add to Cart
 </ReactBootstrap.Button></span>
+
+
+}
 
                     
                 </div>
