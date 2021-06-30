@@ -32,7 +32,7 @@ function Headertwo() {
             </div>
             <div className="header__categories">
                 <ExtensionIcon />
-                <h3><Link to="/Dashboard/category" onClick={() => definCategory("Drawing")}>Logo Design</Link></h3>
+                <h3><Link to="/Dashboard/category" onClick={() => definCategory("Clay")}>Clay</Link></h3>
             </div>
             <div className="header__categories">
                 <SupervisorAccountIcon />
