@@ -27,7 +27,7 @@ var i =0;
 
                 <div className="collection_">
                    <div className="pic">
-                   <img src={"http://localhost:5001/collections/"+dat.collectionimage} />
+                   <img src={"http://localhost:5001/collections/"+dat.collectionimage}/>
 
                    </div>
                     

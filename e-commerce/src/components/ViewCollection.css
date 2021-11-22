@@ -28,13 +28,15 @@
     
 }
 .picc p{
-    width:80%;
+    width:60%;
     margin-top: 10px;
 }
 .picc{
     margin-top: 20px;
 }
-
+.pic{
+    width:40%;
+}
 .collection_ button{
     margin-top: 20px;
 }
