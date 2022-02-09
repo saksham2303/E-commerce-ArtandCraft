@@ -1,6 +1,9 @@
 import mongoose from 'mongoose';
 var Schema = mongoose.Schema;
-var Addprod = new Schema({
+var Addprod = new Schema(
+    
+    
+    {
 
     
     productseller:{
