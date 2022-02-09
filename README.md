@@ -1,7 +1,9 @@
 # E-commerce-ArtandCraft
 The project is developed to provide a platform to the people who create craft products at home. It's MERN stack project.
 
+Hosted on - https://artistics.herokuapp.com/Dashboard/Allcategories
 Contributors 
+
 
 Saksham Bairathi 
 email - sakshambairathi@gmail.com
