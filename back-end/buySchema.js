@@ -1,6 +1,11 @@
 import mongoose from 'mongoose';
 var Schema = mongoose.Schema;
-var buyer = new Schema({
+var buyer = new Schema(
+    
+    
+    
+    
+    {
 
     
 
