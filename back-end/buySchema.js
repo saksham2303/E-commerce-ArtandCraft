@@ -7,8 +7,6 @@ var buyer = new Schema(
     
     {
 
-    
-
    buyer:{
         type: String,
     },
@@ -31,5 +29,7 @@ var buyer = new Schema(
         type: String,
     },
    
-})
+}
+
+)
 export default mongoose.model('Orders', buyer, 'Orders');
