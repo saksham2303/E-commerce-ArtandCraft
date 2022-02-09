@@ -1,6 +1,8 @@
 import mongoose from 'mongoose';
 var Schema = mongoose.Schema;
-var ProfileSchema = new Schema({
+var ProfileSchema = new Schema(
+    
+    {
 
     
     username:{
