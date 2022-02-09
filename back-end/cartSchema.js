@@ -1,6 +1,10 @@
 import mongoose from 'mongoose';
 var Schema = mongoose.Schema;
-var Cart = new Schema({
+var Cart = new Schema(
+    
+    
+    
+    {
 
     
 
